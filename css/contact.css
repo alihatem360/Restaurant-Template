@@ -16,41 +16,42 @@ background-color: #d63031;
 
 
  /*   <!-- -------------------------  Start of NAv --------------------- --> */
-		.nav{
-			background-color: #d63031;
-			}
-			
-			.nav img{
-			width: 30px ;
-			
-			}
-			.nav h1{
-			font-size: 25px;
-			color: white;
-			}
-			
-		
-		
-    .dropdown{
-			background-color: #d63031;
+ .header a {
+	color: #f8f9fa;
+  }
+  .header .navbar {
+	background-color: #d63031;
+  }
+  
+  .header .navbar a {
+	margin-right: 50%;
+  }
+  
+  .header .navbar .navbar-nav .nav-item a {
+	font-size: 19px;
+	padding: 0 20px;
+  }
+  
+  .navbar-toggler:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border: none !important;
+  }
+  
+  .navbar-toggler i {
+	font-size: 30px;
+  }
+  
+  .navbar span i {
+	color: #fff;
+  }
+  
+  @media (max-width: 991px) {
+	.header .navbar .navbar-nav .nav-item a {
+	  padding: 6px 0px;
 	}
-
-		.dropdown a{
-		color: white;
-       background-color: #d63031;
-		}
-		.dropdown button{
-			 background-color: #d63031;
-		}
-		
-		.dropdown button:hover{
-			 background-color: #d63031;
-		}
-
-		.dropdown  a:hover{
-		color: #ffa801;
-		}
-
+  }
+  
 /*   <!-- -------------------------  End  of NAv --------------------- --> */
 
 
